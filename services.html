@@ -11,13 +11,105 @@
     <div class="navbar">
       <nav>
         <ul class="nav-links">
-          <li><a href="#home.html">Home</a></li>
-          <li><a href="#about.html" >About</a></li>
-          <li><a href="#mission.html" >Mission</a></li>
-          <li><a href="#services.html">Services</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html" >About</a></li>
+          <li><a href="mission.html" >Mission</a></li>
+          <li><a href="services.html">Services</a></li>
         </ul>
       </nav>
     </div>
     <h1> Services</h1>
+
+    <section>
+    <h1 id='title'>freeCodeCamp Survey Form</h1> 
+    <p id='description'> thank you for choosing freecodecamp for your coding journey, please provide feedback on our service delivery</p> 
+    <form id='survey-form'> 
+      <label id='name-label' for='name'>Name</label>
+      <input 
+      id='name'
+      type='text'
+      placeholder='eg. John Pork'
+      required
+      />
+      <label id='email-label' for='email'>Email</label>
+      <input
+      id='email'
+      type='email'
+      placeholder='eg. example@gmail.com'
+      required
+      />
+
+      <label id='number-label' for='number'>Age(optional)</label>
+      <input 
+      id='number'
+      type='number'
+      placeholder='eg. 21'
+      min='16'
+      max='100'
+      />
+      <p>how would you best describe your current occupation</p>
+      <label id='occupation-label' for='dropdown'> Choose from these options </label>
+      <select id='dropdown'>
+        <option selected disabled>Select an option</option>
+        <option>Student</option> 
+        <option>Full-time job</option>
+        <option>Part-time job</option>
+      </select> 
+      <p>Would you recommend freeCodeCamp to a friend?</p> 
+      <label id='definite-button' for='definitely'>Definitely</label>
+      <input
+      type='radio'
+      id='definitely'
+      name='recommend'
+      value='definitely'
+      />
+
+      <label id='maybe-button' for='maybe'>Maybe</label>
+      <input
+      type='radio'
+      id='maybe'
+      name='recommend'
+      value='maybe'
+      />
+
+      <label id='no-button' for='no'>No</label>
+      <input
+      type='radio'
+      id='no'
+      name='recommend'
+      value='no'
+      />
+      <p> What would you like to see improved? (Check all that apply)</p>
+      <label id='front-end-button' for='front-end'>Front End Functions</label>
+      <input
+      type='checkbox'
+      id='front-end'
+      value='front-end'
+      />
+
+      <label id='back-end-button' for='back-end'>Back End Functions</label>
+      <input
+      type='checkbox'
+      id='back-end'
+      value='back-end'
+      />
+
+      <label id='github-button' for='github'>Github</label>
+      <input
+      type='checkbox'
+      id='github'
+      value='github'
+      />
+      <p>Please leave a comment bellow for additional reviews </p>
+      <textarea
+      width='640'></textarea>
+      <p> </p>
+      <button
+      type='submit'
+      id='submit'
+      >Submit</button>
+    </form> 
+
+  </section>
   </body>
 </html>
