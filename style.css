@@ -1,7 +1,34 @@
+:root {
+  /* Primary Brand Color */
+  --color-primary: #3A7DFF;
+  --color-primary-light: #6AA2FF;
+  --color-primary-dark: #1F57C9;
+
+  /* Neutrals */
+  --color-bg: #F7F9FC;
+  --color-surface: #FFFFFF;
+  --color-border: #E2E6EE;
+
+  --color-text-main: #1A1D23;
+  --color-text-secondary: #4A4F57;
+
+  /* Accents */
+  --color-accent: #00C2A8;
+  --color-accent-dark: #009B85;
+}
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  line-height: 1.5; 
+}
+
+body{
+  background-color: var(--color-bg);
+  color: var(--color-text-main)
 }
 .navbar {
   display: flex;
