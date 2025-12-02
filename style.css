@@ -1,3 +1,4 @@
+
 :root {
   /* Primary Brand Color */
   --color-primary: #3A7DFF;
@@ -29,6 +30,13 @@
 body{
   background-color: var(--color-bg);
   color: var(--color-text-main)
+}
+
+.main-sec{
+  text-align: center;
+  color: var(--color-text-main); 
+  font-family: 'Roboto', sans-serif,'Sofia';  
+  background:linear-gradient(to right, var(--color-primary-light),var(--color-primary-dark)) ;
 }
 .navbar {
   display: flex;
